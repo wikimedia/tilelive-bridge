@@ -1,6 +1,6 @@
 var url = require('url');
 var path = require('path');
-var mapnik = require('mapnik');
+var mapnik = require('@kartotherian/mapnik');
 var fs = require('fs');
 var qs = require('querystring');
 var sm = new (require('@mapbox/sphericalmercator'))();
