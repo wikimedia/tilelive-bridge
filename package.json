@@ -1,11 +1,11 @@
 {
-  "name": "@kartotherian/tilelive-bridge",
+  "name": "@wikimedia/tilelive-bridge",
   "version": "3.1.1-wikimedia.1",
   "main": "./index.js",
   "description": "Datasource => vector tiles bridge backend for tilelive",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kartotherian/tilelive-bridge.git"
+    "url": "https://github.com/wikimedia/tilelive-bridge.git"
   },
   "publishConfig": {
     "access": "public"
@@ -16,8 +16,8 @@
     }
   ],
   "dependencies": {
-    "@mapbox/sphericalmercator": "~1.0.1",
-    "@kartotherian/mapnik": "~3.7.4",
+    "@mapbox/sphericalmercator": "^1.2.0",
+    "mapnik": "^4.5.9",
     "mapnik-pool": "~0.1.3"
   },
   "devDependencies": {
